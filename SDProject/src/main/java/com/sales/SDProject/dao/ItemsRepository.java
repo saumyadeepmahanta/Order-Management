@@ -8,3 +8,4 @@ public interface ItemsRepository extends MongoRepository<itemsEntity,String> {
     List<itemsEntity> findByOrderNo(String orderNo);
     void deleteByOrderNo(String orderNo);
 }
+    
