@@ -12,7 +12,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class itemsEntity {
     @Id
     private String id;
-
     private String itemNo;
     private String material;
     private double amount;
